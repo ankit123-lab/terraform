@@ -23,7 +23,7 @@ resource "aws_instance" "example" {
 
 
   tags = {
-    Name = "terraform-example"
+    Name = "TF-CLOUD"
   }
 
   user_data = <<-EOF
