@@ -23,7 +23,7 @@ resource "aws_instance" "example" {
 
 
   tags = {
-    Name = "TF-CLOUD"
+    Name = "TF-CLOUD-CLI"
   }
 
   user_data = <<-EOF
